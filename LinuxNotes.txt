@@ -1,0 +1,16 @@
+Linux:
+
+1. Every thing will be file system : File ,Directory
+2. Root directory is : /
+3. /boot :  all bootable files are presented , max memory allocation is 500MB
+  When u install any application in  linux OS, installation will not depend on other installation. it will takes only /boot directory
+  When linux machine is restart booting will done from /boot directory only.
+
+4. /root : home directory for root user , all files related to root user is stored in /root directory
+    Two type of users: 
+		admin users : # root user is deafult admin user
+		normal users: $ 
+
+5. /home : home directory for normal[non admin] user
+	For every user it will create 	home directory under /home
+	Ex: if username is qt  then directory is /home/qt
