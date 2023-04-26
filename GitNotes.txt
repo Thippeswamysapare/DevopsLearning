@@ -35,19 +35,19 @@ Remote Repo  : A seperate repository where user can store the code and shared wi
 				
 3. Steps to commit a file:
 create file	     			 : touch <file-name>   or cat <file-name>  or vim <file-name>
-create multiple files 		 : tourch disha {1 .. 4} ->will create files as disha1, disha2, disha3, disha4
+create multiple files 			 : tourch disha {1 .. 4} ->will create files as disha1, disha2, disha3, disha4
 check file status			 : git status 
 Add that file    			 : git add.
-commit the file with message : git commit -m "commint message" filename
-to see details of that file  : git log
+commit the file with message 		 : git commit -m "commint message" filename
+to see details of that file 		 : git log
 
 adding files:
 add a single file 			: git add "file-name"
 add	multiple files			: git add .
-untrack a single file		: git restore --staged <filename>
+untrack a single file			: git restore --staged <filename>
 untrack all files 			: git restore --staged .
-adding files with same name	: git add disha*
-commit files with same name : git commit -m "commint message" filename*
+adding files with same name		: git add disha*
+commit files with same name 		: git commit -m "commint message" filename*
 
 4. Configuration of users:
 If you want to give username and e-mail id to those commits then
@@ -75,9 +75,6 @@ If you want to give username and e-mail id to those commits then
 			  
 to see hidden file :  ls -all
 
-================================================
-
-
 6. Git Branches
 	a. A branch represent a independent line of development
 	b. The git branch command lets you create , list ,rename and delete branches
@@ -86,7 +83,7 @@ to see hidden file :  ls -all
 -> To see current branch		: git branch
 -> To add a new branch			: git branch branch-name
 -> To switch branches			: git checkout -b branch-name
--> To create & switch at a time : git checkout -b branch-name
+-> To create & switch at a time 	: git checkout -b branch-name
 -> To rename a branch			: git branch -m old new
 -> to delete a branch			: git branch -d branch-name
 
@@ -94,17 +91,9 @@ The -d option will delete te branch only if it has already been pushed
 and merged with remote branch. Use -D instead if you want to force the branch to be deleted
 
 Part-1              Part-2          Part-3
-Local				branches		Central
+Local		    branches	    Central
 
-=======================================
-branch name	 Viyu	Riya	Shashi
-created		  3		 3		 3	
-add 		  3	     3       1
-commit 		  3      2   	 1
----------------------------------------
-github status 
-when git push 3      2       1   
-======================================== 
+
 
 7. Restore deleted files
 		git restore disha*
@@ -153,19 +142,19 @@ Remote Repo  : A seperate repository where user can store the code and shared wi
 				
 3. Steps to commit a file:
 create file	     			 : touch <file-name>   or cat <file-name>  or vim <file-name>
-create multiple files 		 : tourch disha {1 .. 4} ->will create files as disha1, disha2, disha3, disha4
+create multiple files 			 : tourch disha {1 .. 4} ->will create files as disha1, disha2, disha3, disha4
 check file status			 : git status 
 Add that file    			 : git add.
-commit the file with message : git commit -m "commint message" filename
-to see details of that file  : git log
+commit the file with message 		 : git commit -m "commint message" filename
+to see details of that file  		 : git log
 
 adding files:
 add a single file 			: git add "file-name"
 add	multiple files			: git add .
-untrack a single file		: git restore --staged <filename>
+untrack a single file			: git restore --staged <filename>
 untrack all files 			: git restore --staged .
-adding files with same name	: git add disha*
-commit files with same name : git commit -m "commint message" filename*
+adding files with same name		: git add disha*
+commit files with same name 		: git commit -m "commint message" filename*
 
 4. Configuration of users:
 If you want to give username and e-mail id to those commits then
@@ -203,8 +192,8 @@ to see hidden file :  ls -all
 
 -> To see current branch		: git branch
 -> To add a new branch			: git branch branch-name
--> To switch branches			: git checkout -b branch-name
--> To create & switch at a time : git checkout -b branch-name
+-> To switch branches			: git checkout branch-name
+-> To create & switch at a time 	: git checkout -b branch-name
 -> To rename a branch			: git branch -m old new
 -> to delete a branch			: git branch -d branch-name
 
@@ -216,12 +205,12 @@ Local				branches		Central
 
 =======================================
 branch name	 Viyu	Riya	Shashi
-created		  3		 3		 3	
-add 		  3	     3       1
+created		  3	 3	 3	
+add 		  3	 3       1
 commit 		  3      2   	 1
 ---------------------------------------
 github status 
-when git push 3      2       1   
+when git push    3      2       1   
 ======================================== 
 
 7. Restore deleted files
